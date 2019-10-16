@@ -1,2 +1,4 @@
 # aiactr
-AIACTR website (NOT OFFICIAL) made as project 
+
+AIACTR website (NOT OFFICIAL) 
+Developed by me as a project
