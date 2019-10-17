@@ -26,19 +26,27 @@ button.navbar-toggler {
 .list {
     font-size: 0.8rem;
     list-style: none;
-    color:black;
+    color: black;
     margin: 0px;
 }
-.list-group-item{
+.list-group-item {
     padding: 0px;
-    padding-left:5px;
+    padding-left: 5px;
     border: 1px solid black;
 }
 .list:hover {
     text-decoration: none;
     color: grey;
 }
-
+#mainMenu {
+    background-color: grey;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+}
 .dropdown-item:hover {
     background-color: blue;
     color: white;
