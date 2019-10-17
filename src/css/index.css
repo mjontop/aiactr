@@ -23,11 +23,10 @@ button.navbar-toggler {
     color: white;
 }
 
-li > div.dropdown-menu{
-    padding-left:00px ;
+li > div.dropdown-menu {
+    padding-left: 00px;
 }
 @media only screen and (max-width: 767px) {
-    
     ul > li > a {
         margin-left: -20px;
     }
