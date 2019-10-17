@@ -1,14 +1,19 @@
 #nav {
     margin-top: 20px;
     height: 50px;
-    border-radius: 5px;
 }
 
-ul > li > a {
-    background-color: darkblue;
+.navbar-nav > li > a {
+    background-color: blue;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
+
+    height: 50px;
+}
+
+.dropdown-menu {
+    background-color: lightcyan;
 }
 
 .active {
@@ -16,6 +21,22 @@ ul > li > a {
 }
 button.navbar-toggler {
     font-size: 0.5rem;
+}
+
+.list {
+    font-size: 0.8rem;
+    list-style: none;
+    color:black;
+    margin: 0px;
+}
+.list-group-item{
+    padding: 0px;
+    padding-left:5px;
+    border: 1px solid black;
+}
+.list:hover {
+    text-decoration: none;
+    color: grey;
 }
 
 .dropdown-item:hover {
