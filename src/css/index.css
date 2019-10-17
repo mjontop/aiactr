@@ -18,6 +18,11 @@ button.navbar-toggler {
     font-size: 0.5rem;
 }
 
+.dropdown-item:hover{
+    background-color: blue;
+    color:white;
+}
+
 @media only screen and (max-width: 767px) {
     ul > li > a {
         margin-left: -20px;
