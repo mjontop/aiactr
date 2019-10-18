@@ -3,6 +3,7 @@ $(document).ready(() => {
 		$("li.list-group-item")
 			.not("#mainMenu")
 			.hide()
+		$("#nav").addClass("bg-primary")
 	}
 })
 
