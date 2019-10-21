@@ -37,7 +37,8 @@ button.navbar-toggler {
 	text-decoration: none;
 	color: grey;
 }
-#mainMenu {
+#mainMenu, #ragging {
+	margin-top:10px;
 	background-color: grey;
 	color: white;
 	font-weight: 500;
