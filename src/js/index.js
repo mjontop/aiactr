@@ -4,7 +4,6 @@ $(document).ready(() => {
       .not("#mainMenu")
       .not("#ragging")
       .hide()
-    // $("#nav").addClass("bg-primary")
   }
 })
 
