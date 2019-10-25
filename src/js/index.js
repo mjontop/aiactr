@@ -3,6 +3,9 @@ $(document).ready(() => {
     $("li.list-group-item")
       .not("#mainMenu")
       .not("#ragging")
+      .not("#events")
+      .not("#important-links")
+      .not("#Affiliations")
       .hide()
   }
 })
@@ -15,3 +18,4 @@ function menuToggler() {
       .toggle("slow")
   }
 }
+

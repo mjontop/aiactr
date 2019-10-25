@@ -37,7 +37,11 @@ button.navbar-toggler {
   color: grey;
 }
 #mainMenu,
-#ragging {
+#ragging,
+#events,
+#important-links,
+#Affiliations {
+  
   margin-top: 10px;
   background-color: grey;
   color: white;
@@ -55,6 +59,7 @@ button.navbar-toggler {
 li > div.dropdown-menu {
   padding-left: 00px;
 }
+
 @media only screen and (max-width: 767px) {
   ul > li > a {
     margin-left: -20px;
