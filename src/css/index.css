@@ -50,6 +50,7 @@ button.navbar-toggler {
   padding: 5px;
   user-select: none;
   cursor: pointer;
+
 }
 .dropdown-item:hover {
   background-color: blue;
