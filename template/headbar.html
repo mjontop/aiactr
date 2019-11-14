@@ -1,0 +1,177 @@
+<script>
+    $("li").click(function () {
+        var k = $(this).index();
+        console.log(k);
+        $("li:nth-child(" + k+1 + ")").children()
+    });
+</script>
+
+<header>
+    <div class="col-12">
+
+        <img src="/src/img/logo.jpg" class="img-fluid" />
+
+    </div>
+</header>
+
+<nav id="nav" class="navbar navbar-dark navbar-expand-md bg-primary sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse navbar-fixed-top " id="Navbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a href="#" class="nav-link pl-2 active" style="margin-left:-20px ">
+                    Home
+                </a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    AIACTR
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./template/aboutus.html">About Us</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2 " role="button" data-toggle="dropdown">
+                    Academic
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./template/department.html">Departments</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Faculty Profile</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Technical Staff</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Non Technical Staff</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">TRF</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Syllabus</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Academic Calender</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Time Table</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    Programmes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Graduate</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Post Graduate</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Research/PHD</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    Infrastructure
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Land Details</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Saftey Structures</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Computer Center and <br />
+                        Server Room</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">List of Computers</a>
+
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Library</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Class Rooms</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="nav-link dropdown-toggle pl-4" role="button" data-toggle="dropdown" href="#"
+                        style="color: black">Labs</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdrown">
+                        <a class="dropdown-item" href="./template/ecelabs.html">ECE LABS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./template/cselabs.html">CSE LABS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">SAH LABS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    TPO
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Placements Status</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">TPO Contact</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Facilities</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Company's Hiring</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Enterpreneuship and <br />
+                        Recruitment</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Internships</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    Career
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Job-opening</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">Outsourcing</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    MHRD
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">AISHE</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">IIC</a>
+                    <div class="dropdown-item"></div>
+                    <a href="#" class="nav-link dropdown-toggle pl-4" role="button" data-toggle="dropdown"
+                        style="color: black">
+                        NIRF
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="#" class="dropdown-item">
+                            NIRF 2017
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            NIRF 2019
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle pl-2" role="button" data-toggle="dropdown">
+                    Fees
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">SBI</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a href="./template/contact.html" class="nav-link pl-2">
+                    Contact
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="./template/accessbility.html" class="nav-link  pl-2">
+                    Accessiblity
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

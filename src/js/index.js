@@ -8,6 +8,7 @@ $(document).ready(() => {
       .not("#Affiliations")
       .hide()
   }
+
 })
 
 function menuToggler() {
@@ -18,4 +19,3 @@ function menuToggler() {
       .toggle("slow")
   }
 }
-
